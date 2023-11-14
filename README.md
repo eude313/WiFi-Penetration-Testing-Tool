@@ -1,44 +1,48 @@
-# wifi-cracker
-Wifi-Cracker.py to Hack WPS/WPA/WPA2 Networks
+# WiFi Penetration Testing Tool
 
-# Wifi-Cracker.py
-
-Wifi-Cracker.py it Saves Time and Effort
+This Python script is a WiFi penetration testing tool that provides various functionalities for network analysis and security testing. The tool utilizes popular tools such as Aircrack-ng, Crunch, Xterm, Reaver, Pixiewps, Bully, and Wifite.
 
 # Features
 
-1)Start monitor mode
+Start and stop monitor mode on wireless interfaces.
+Scan for available networks.
+Capture handshake for later analysis.
+Install essential wireless security tools.
+Perform handshake cracking using rockyou.txt or custom wordlists.
+Conduct WPS (Wi-Fi Protected Setup) attacks.
 
-2)Stop monitor mode
+# Prerequisites
 
-3)Scan Networks   
+A Linux-based operating system (tested on Kali Linux).
+Python installed.
+Superuser (root) privileges.
+Wireless network adapter that supports monitor mode.
 
-4)Getting Handshake
+# Installation
 
-5)Create wordlist
+Clone the repository:
+git clone https://github.com/eude313/WiFi-Penetration-Testing-Tool.git
+cd wifi-penetration-tool
 
-6)Install Wireless tools                  
+Run the script:
 
-7)WPS Networks attacks 
+python wifi_pentest_tool.py
+Follow the on-screen menu to choose the desired operation.
 
-8)Scan for WPS Networks
+# Usage
 
-9)Crack Handshake with rockyou.txt
+Follow the on-screen menu to navigate through different options.
+Ensure that you have the necessary permissions to execute the script.
+Contributing
+Contributions are welcome! If you have ideas for improvements or new features, feel free to open an issue or submit a pull request.
 
-10)Crack Handshake with wordlist
+# License
 
-11)Crack Handshake without wordlist
+This project is licensed under the MIT License.
 
-#Installation
-1) sudo apt-get update && apt-get install git
-2) sudo git clone https://github.com/TermuxHackz/wifi-cracker.git
-3) cd Wifi-Cracker/
-4) sudo python3 wifi-cracker.py
-# Author
-(AnonyminHack5)
+Author
+Eudes
 
-Facebook:
+For additional information, check out my LinkedIn profile:
 
-https://www.facebook.com/anonyminHack5
-
-#Enjoy
+https://www.linkedin.com/in/eudes-charles/
